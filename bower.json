@@ -1,0 +1,25 @@
+{
+  "name": "lightbox",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Charlotteis/lightbox",
+  "authors": [
+    "Charlotte Spencer <charlottelaspencer@gmail.com>"
+  ],
+  "description": "An accessible lightbox",
+  "keywords": [
+    "lightbox",
+    "jquery",
+    "accessible"
+  ],
+  "license": "None",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3"
+  }
+}
