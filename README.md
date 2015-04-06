@@ -4,6 +4,8 @@ The goal of this project is to create a fully accessible lightbox. Modal dialogs
 
 In general, the opening of a lightbox takes the user out of the moment. It is a sudden visual change in the browser, and a sudden content change on a screenreader. We must make this as accessible as possible, to reduce confusion when using the lightbox (intentionally or accidentally).
 
+The most accessible ligthtbox is to not have a lightbox at all. However, if you really have to have a lightbox, it must be made as accessible as possible.
+
 This is not the first lightbox project, whether accessible or not. However, through my research I have found that many lightbox projects are now outdated, are not fully accessible, or do not have a good accompanying documentation or tutorial.
 
 This project is not just about providing an accessible option, but to learn how to build one in the first place and then go on to provide a step by step tutorial on how to create one for yourselves. 
