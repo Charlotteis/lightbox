@@ -1,0 +1,31 @@
+{
+  "name": "lightbox",
+  "version": "1.0.0",
+  "description": "An accessible lightbox",
+  "main": "static/js/main.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-sass": "^1.3.3",
+    "gulp-uglify": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Charlotteis/lightbox.git"
+  },
+  "keywords": [
+    "lightbox",
+    "jquery",
+    "accessible"
+  ],
+  "author": "Charlotte Spencer",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/Charlotteis/lightbox/issues"
+  },
+  "homepage": "https://github.com/Charlotteis/lightbox"
+}
