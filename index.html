@@ -9,15 +9,15 @@
   <title>Lightbox &mdash; an accessible lightbox</title>
   <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" 
   type="text/css">
+  <link rel="stylesheet" href="static/css/style.css" type="text/css">
 </head>
 <body>
-  <header role="banner">
-    <h1>Lightbox &mdash; An accessible lightbox</h1>
-  </header>
-  
-  <main role="main">
-<!--     Does this wrapper need to be done?-->    
-    <div id="wrapper">
+  <div id="wrapper">
+    <header role="banner">
+      <h1>Lightbox &mdash; An accessible lightbox</h1>
+    </header>
+
+    <main role="main">
       <div id="lightbox">
         <ul>
           <li>
@@ -46,18 +46,18 @@
           data-large-image="static/img/img5-lg.jpg">
           </li>
           <li>
-            <img src="static/img/img1-sm.jpg" 
+            <img src="static/img/img6-sm.jpg" 
             alt="A reflection of a camera lens in a window"
-            data-large-image="static/img/img1-lg.jpg">
+            data-large-image="static/img/img6-lg.jpg">
           </li>
         </ul>
       </div>
-    </div>
-  </main>
-  <footer role="contentinfo">
-    Made by <a href="http://charlotteis.github.io">@Charlotteis</a> &copy;2015 | 
-    Lightbox on <a href="http://github.com/charlotteis/lightbox">GitHub</a> | 
-    Photos by <a href="https://www.flickr.com/photos/charlatrone">@Charlotteis</a>
-  </footer>
+    </main>
+    <footer role="contentinfo">
+      <p>Made by <a href="http://charlotteis.github.io">@Charlotteis</a> &copy;2015 | 
+      Lightbox on <a href="http://github.com/charlotteis/lightbox">GitHub</a> | 
+      Photos by <a href="https://www.flickr.com/photos/charlatrone">@Charlotteis</a></p>
+    </footer>
+  </div>
 </body>
 </html>
