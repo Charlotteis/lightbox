@@ -1,5 +1,7 @@
 # Lightbox &mdash; An accessible lightbox
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Charlotteis/lightbox.svg)](https://greenkeeper.io/)
+
 The goal of this project is to create a fully accessible lightbox. Modal dialogs, like lightboxes, are used often throughout the web but their effect on accessibility may not be considered.
 
 In general, the opening of a lightbox takes the user out of the moment. It is a sudden visual change in the browser, and a sudden content change on a screenreader. We must make this as accessible as possible, to reduce confusion when using the lightbox (intentionally or accidentally).
